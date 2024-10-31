@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baoha-portfolio/static/css/main.911d8dda.css",
-    "main.js": "/baoha-portfolio/static/js/main.d1f836e1.js",
+    "main.css": "/baoha-portfolio/static/css/main.e9140d8f.css",
+    "main.js": "/baoha-portfolio/static/js/main.9d61f186.js",
     "static/media/avatar.svg": "/baoha-portfolio/static/media/avatar.6acdd0f348322ba06d8275de5dd8ee85.svg",
     "static/media/portfolio-img2.png": "/baoha-portfolio/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
     "static/media/portfolio-img3.png": "/baoha-portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
@@ -11,11 +11,11 @@
     "static/media/about.png": "/baoha-portfolio/static/media/about.34da930ab4436bc41a33.png",
     "static/media/logo.svg": "/baoha-portfolio/static/media/logo.1ed738f9eb92c6c36939bc033726e44c.svg",
     "index.html": "/baoha-portfolio/index.html",
-    "main.911d8dda.css.map": "/baoha-portfolio/static/css/main.911d8dda.css.map",
-    "main.d1f836e1.js.map": "/baoha-portfolio/static/js/main.d1f836e1.js.map"
+    "main.e9140d8f.css.map": "/baoha-portfolio/static/css/main.e9140d8f.css.map",
+    "main.9d61f186.js.map": "/baoha-portfolio/static/js/main.9d61f186.js.map"
   },
   "entrypoints": [
-    "static/css/main.911d8dda.css",
-    "static/js/main.d1f836e1.js"
+    "static/css/main.e9140d8f.css",
+    "static/js/main.9d61f186.js"
   ]
 }
