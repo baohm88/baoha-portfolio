@@ -31,15 +31,22 @@ const About = () => {
                     >
                         <h2 className="h2 text-accent">About me.</h2>
                         <h3 className="h3 mb-4">
-                            I'm a Freelance Front-end Developer with over 5
-                            years of experience.
+                            I'm a Full Stack Developer with 1+ years of
+                            experience.
                         </h3>
                         <p className="mb-6">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Ipsa nemo explicabo quasi, nesciunt maxime
-                            dicta, voluptatibus praesentium accusamus, repellat
-                            ut labore error quia ducimus! Voluptates, modi iste.
-                            Voluptatibus, ut labore!
+                            I'm Bao Ha, a dedicated full-stack developer with
+                            expertise in PHP, Python, Express.js, and Next.js
+                            for backend development. On the frontend, I create
+                            dynamic user experiences using HTML, CSS,
+                            JavaScript, and React, while leveraging frameworks
+                            like Bootstrap and Tailwind to craft responsive
+                            designs. My passion for coding drives me to build
+                            efficient and scalable applications. I thrive in
+                            collaborative environments and am eager to
+                            contribute innovative solutions that make a
+                            difference. Let’s connect and create something
+                            amazing together!
                         </p>
                         {/* stats */}
                         <div className="flex gap-x-6 lg:gap-x-10 mb-12">
@@ -48,10 +55,11 @@ const About = () => {
                                     {inView ? (
                                         <CountUp
                                             start={0}
-                                            end={13}
+                                            end={1}
                                             duration={3}
                                         />
                                     ) : null}
+                                    +
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Years of <br /> Experience
@@ -66,10 +74,9 @@ const About = () => {
                                             duration={3}
                                         />
                                     ) : null}
-                                    k+
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
-                                    Projects <br /> Completed
+                                    Personal <br /> Projects
                                 </div>
                             </div>
                             <div>
@@ -77,14 +84,14 @@ const About = () => {
                                     {inView ? (
                                         <CountUp
                                             start={0}
-                                            end={12}
+                                            end={10}
                                             duration={3}
                                         />
                                     ) : null}
-                                    k+
+                                    +
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
-                                    Satisfied <br /> Customers
+                                    Technologies <br /> Used
                                 </div>
                             </div>
                         </div>

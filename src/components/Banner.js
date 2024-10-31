@@ -54,8 +54,14 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
                             className="mb-8 max-w-lg mx-auto lg:mx-0"
                         >
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit.
+                            Hello! I'm Bao Ha, an aspiring full-stack developer
+                            with a solid foundation in Python, PHP, JavaScript,
+                            and React, and a growing portfolio of personal
+                            projects. While I'm new to professional web
+                            development, I'm driven to create meaningful,
+                            impactful applications and eager to bring fresh
+                            ideas and dedication to a dynamic development team.
+                            Let’s build something great together!
                         </motion.p>
                         <motion.div
                             variants={fadeIn("up", 0.6)}
