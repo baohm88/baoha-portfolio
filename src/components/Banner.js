@@ -31,14 +31,18 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
                             className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
                         >
-                            <span className="text-white mr-4">I am a</span>
+                            <span className="text-white mr-4">
+                                My expertise -{" "}
+                            </span>
                             <TypeAnimation
                                 sequence={[
-                                    "Developer",
+                                    "Reactjs",
                                     2000,
-                                    "Designer",
+                                    "Nextjs",
                                     2000,
-                                    "YouTuber",
+                                    "Python",
+                                    2000,
+                                    "PHP",
                                     2000,
                                 ]}
                                 speed={50}
@@ -55,8 +59,8 @@ const Banner = () => {
                             className="mb-8 max-w-lg mx-auto lg:mx-0"
                         >
                             Hello! I'm Bao Ha, an aspiring full-stack developer
-                            with a solid foundation in Python, PHP, JavaScript,
-                            and React, and a growing portfolio of personal
+                            with a solid foundation in Python, PHP, Reactjs and
+                            Nextjs, and a growing portfolio of personal
                             projects. While I'm new to professional web
                             development, I'm driven to create meaningful,
                             impactful applications and eager to bring fresh

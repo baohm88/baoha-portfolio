@@ -45,8 +45,8 @@ const Services = () => {
                     >
                         <h2 className="h2 text-accent mb-6">What I Do.</h2>
                         <h3 className="h3 max-w-[455px] mb-16">
-                            I'm a Freelance Front-end Developer with over 5
-                            years of experience.
+                            I'm a Full Stack Developer with over 1 year of
+                            experience.
                         </h3>
                         <button className="btn btn-sm">
                             <Link to="work">See my work</Link>
