@@ -10,7 +10,13 @@ const Header = () => {
                         <img src={Logo} alt="" />
                     </a>
                     <button className="btn btn-sm">
-                        <Link to="contact">Let's talk</Link>
+                        <a
+                            href="https://drive.google.com/file/d/13O0mWDLPA-kTBvFoC6fKZpeYyszqbmUF/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Resume
+                        </a>
                     </button>
                 </div>
             </div>
