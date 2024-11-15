@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/baoha-portfolio/static/css/main.4b7d32a7.css",
-    "main.js": "/baoha-portfolio/static/js/main.fb0d639d.js",
+    "main.css": "/baoha-portfolio/static/css/main.39e89467.css",
+    "main.js": "/baoha-portfolio/static/js/main.a405069e.js",
     "static/media/avatar.svg": "/baoha-portfolio/static/media/avatar.6acdd0f348322ba06d8275de5dd8ee85.svg",
     "static/media/portfolio-img3.png": "/baoha-portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
     "static/media/php_bookstore.png": "/baoha-portfolio/static/media/php_bookstore.f4a3acc639e6d4fddc88.png",
     "static/media/site-bg.jpg": "/baoha-portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/Clarins_Cosmetics.png": "/baoha-portfolio/static/media/Clarins_Cosmetics.69505548241fbebd67d8.png",
     "static/media/services.png": "/baoha-portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
-    "static/media/about.png": "/baoha-portfolio/static/media/about.34da930ab4436bc41a33.png",
+    "static/media/about.png": "/baoha-portfolio/static/media/about.9f7f58d01d02748e4e1a.png",
     "static/media/logo.svg": "/baoha-portfolio/static/media/logo.1ed738f9eb92c6c36939bc033726e44c.svg",
     "index.html": "/baoha-portfolio/index.html",
-    "main.4b7d32a7.css.map": "/baoha-portfolio/static/css/main.4b7d32a7.css.map",
-    "main.fb0d639d.js.map": "/baoha-portfolio/static/js/main.fb0d639d.js.map"
+    "main.39e89467.css.map": "/baoha-portfolio/static/css/main.39e89467.css.map",
+    "main.a405069e.js.map": "/baoha-portfolio/static/js/main.a405069e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b7d32a7.css",
-    "static/js/main.fb0d639d.js"
+    "static/css/main.39e89467.css",
+    "static/js/main.a405069e.js"
   ]
 }
