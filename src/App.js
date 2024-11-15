@@ -1,6 +1,6 @@
 import React from "react";
 // components
-import Banner from "./components/Banner";
+import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import About from "./components/About";
@@ -13,11 +13,9 @@ const App = () => {
     return (
         <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
             <Header />
-            <Banner />
+            <Hero />
             <Nav />
             <About />
-            <Services />
-            <Projects />
             <Work />
             <Contact />
         </div>

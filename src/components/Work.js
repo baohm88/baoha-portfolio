@@ -21,14 +21,8 @@ const Work = () => {
                         {/* text */}
                         <div>
                             <h2 className="h2 leading-tight text-accent">
-                                My Latest <br />
-                                Work.
+                                Selected Work.
                             </h2>
-                            <p className="max-w-sm mb-16">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit. Molestias officiis nostrum
-                                recusandae reprehenderit in deserunt dolorem!
-                            </p>
                             <button className="btn btn-sm">
                                 View all projects
                             </button>
