@@ -1,4 +1,4 @@
-import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -13,7 +13,8 @@ export default function Hero() {
             <div className="container mx-auto">
                 <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
                     {/* text */}
-                    <div className="flex-1 text-center font-secondary lg:text-left">
+
+                    <div className="flex-1 text-left font-secondary">
                         <motion.h1
                             variants={fadeIn("up", 0.3)}
                             initial="hidden"
@@ -55,7 +56,8 @@ export default function Hero() {
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
-                            className="mb-8 max-w-lg mx-auto lg:mx-0"
+                            // className="mb-8 max-w-lg mx-auto lg:mx-0"
+                            className="mb-8 max-w-lg mx-0"
                         >
                             Hello! I'm Bao Ha, an aspiring full-stack developer
                             with a solid foundation in Python, PHP, Reactjs and
@@ -86,7 +88,7 @@ export default function Hero() {
                             initial="hidden"
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7 }}
-                            className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+                            className="flex text-[20px] gap-x-6 max-w-max "
                         >
                             <a
                                 href="https://www.youtube.com/@baoha5310"
@@ -101,13 +103,6 @@ export default function Hero() {
                                 rel="noopener noreferrer"
                             >
                                 <FaGithub />
-                            </a>
-                            <a
-                                href="https://dribbble.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FaLinkedin />
                             </a>
                         </motion.div>
                     </div>

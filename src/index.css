@@ -36,6 +36,10 @@
     );
 }
 
+#logo img {
+    padding: 0;
+}
+
 .active {
     color: #fff;
     padding: 1rem;

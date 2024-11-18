@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-// import Img1 from "../assets/portfolio-img1.png";
+import { FaExternalLinkAlt, FaCode, FaPlay } from "react-icons/fa";
 import Img1 from "../assets/Clarins_Cosmetics.png";
-// import Img2 from "../assets/portfolio-img2.png";
 import Img2 from "../assets/php_bookstore.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img3 from "../assets/react-tictactoe.png";
+import Img4 from "../assets/react-investment-calculator.png";
 
 const Work = () => {
     return (
@@ -23,9 +23,6 @@ const Work = () => {
                             <h2 className="h2 leading-tight text-accent">
                                 Selected Work.
                             </h2>
-                            <button className="btn btn-sm">
-                                View all projects
-                            </button>
                         </div>
                         {/* image */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
@@ -35,18 +32,68 @@ const Work = () => {
                             <img
                                 className="group-hover:scale-125 transition-all duration-500"
                                 src={Img1}
-                                alt=""
+                                alt="Clarins Cosmetics"
                             />
-                            {/* pretitle */}
-                            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                                <span className="text-gradient">
-                                    UI/UX Design
+                            {/* links */}
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-24 transition-all duration-500 z-50 flex gap-8">
+                                <a
+                                    href="https://youtu.be/rrxXPAbsfaw"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Demo <FaPlay />
+                                </a>
+                                <a
+                                    href="https://github.com/baohm88/team2fly-eproject"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Code <FaCode />
+                                </a>
+                            </div>
+
+                            {/* title */}
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-14 transition-all duration-700 z-50">
+                                <span className="text-3xl text-white">
+                                    Clarins Cosmetics
                                 </span>
                             </div>
+                        </div>
+                        <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
+                            {/* overlay */}
+                            <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                            {/* img */}
+                            <img
+                                className="group-hover:scale-125 transition-all duration-500"
+                                src={Img4}
+                                alt="React Investment Calculator"
+                            />
+                            {/* links */}
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-24 transition-all duration-500 z-50 flex gap-8">
+                                <a
+                                    href="https://baohm88.github.io/React-Investment-Calculator/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Live <FaExternalLinkAlt />
+                                </a>
+                                <a
+                                    href="https://github.com/baohm88/React-Investment-Calculator"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Code <FaCode />
+                                </a>
+                            </div>
+
                             {/* title */}
-                            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className="text-3xl text-white">
-                                    Project Title
+                                    Investment Calcuator
                                 </span>
                             </div>
                         </div>
@@ -58,7 +105,7 @@ const Work = () => {
                         viewport={{ once: false, amount: 0.3 }}
                         className="flex-1 flex flex-col gap-y-10"
                     >
-                        {/* img */}
+                        {/* project 2 */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
                             {/* overlay */}
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -66,21 +113,45 @@ const Work = () => {
                             <img
                                 className="group-hover:scale-125 transition-all duration-500"
                                 src={Img2}
-                                alt=""
+                                alt="Programming Books Store"
                             />
-                            {/* pretitle */}
-                            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                                <span className="text-gradient">
-                                    UI/UX Design
-                                </span>
+                            {/* links */}
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-24 transition-all duration-500 z-50 flex gap-8">
+                                <a
+                                    href="http://programmingbooks-store.free.nf/books"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Live <FaExternalLinkAlt />
+                                </a>
+                                <a
+                                    href="https://youtu.be/xhuE0dgFX30"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Demo <FaPlay />
+                                </a>
+                                <a
+                                    href="https://github.com/baohm88/php_bookstore"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Code <FaCode />
+                                </a>
                             </div>
+
                             {/* title */}
-                            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className="text-3xl text-white">
-                                    Project Title
+                                    Programming Books Store
                                 </span>
                             </div>
                         </div>
+
+                        {/* project 3 */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
                             {/* overlay */}
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -88,18 +159,40 @@ const Work = () => {
                             <img
                                 className="group-hover:scale-125 transition-all duration-500"
                                 src={Img3}
-                                alt=""
+                                alt="Another Project"
                             />
-                            {/* pretitle */}
-                            <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                                <span className="text-gradient">
-                                    UI/UX Design
-                                </span>
+                            {/* links */}
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-24 transition-all duration-500 z-50 flex gap-8">
+                                <a
+                                    href="https://live-link.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Live <FaExternalLinkAlt />
+                                </a>
+                                <a
+                                    href="https://demo-link.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Demo <FaPlay />
+                                </a>
+                                <a
+                                    href="https://github.com/code-link"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-gradient flex items-center gap-2 hover:text-accent"
+                                >
+                                    Code <FaCode />
+                                </a>
                             </div>
+
                             {/* title */}
-                            <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                            <div className="absolute -bottom-full left-4 group-hover:bottom-14 transition-all duration-700 z-50">
                                 <span className="text-3xl text-white">
-                                    Project Title
+                                    Tic-Tac-Toe Game
                                 </span>
                             </div>
                         </div>
