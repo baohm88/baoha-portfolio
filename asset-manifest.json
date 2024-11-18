@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/baoha-portfolio/static/css/main.917406ac.css",
-    "main.js": "/baoha-portfolio/static/js/main.a42ad92d.js",
-    "static/media/portfolio-img3.png": "/baoha-portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
-    "static/media/php_bookstore.png": "/baoha-portfolio/static/media/php_bookstore.f4a3acc639e6d4fddc88.png",
+    "main.css": "/baoha-portfolio/static/css/main.beb48a10.css",
+    "main.js": "/baoha-portfolio/static/js/main.305895ac.js",
+    "static/media/react-investment-calculator.png": "/baoha-portfolio/static/media/react-investment-calculator.afdea62029d3ed44cd8c.png",
+    "static/media/react-tictactoe.png": "/baoha-portfolio/static/media/react-tictactoe.96b672fb64669a611800.png",
+    "static/media/php_bookstore.png": "/baoha-portfolio/static/media/php_bookstore.c7869f6cb2787c4c2ed1.png",
     "static/media/site-bg.jpg": "/baoha-portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/Clarins_Cosmetics.png": "/baoha-portfolio/static/media/Clarins_Cosmetics.69505548241fbebd67d8.png",
     "static/media/services.png": "/baoha-portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
     "static/media/about.png": "/baoha-portfolio/static/media/about.9f7f58d01d02748e4e1a.png",
-    "static/media/logo.svg": "/baoha-portfolio/static/media/logo.1ed738f9eb92c6c36939bc033726e44c.svg",
     "index.html": "/baoha-portfolio/index.html",
-    "main.917406ac.css.map": "/baoha-portfolio/static/css/main.917406ac.css.map",
-    "main.a42ad92d.js.map": "/baoha-portfolio/static/js/main.a42ad92d.js.map"
+    "main.beb48a10.css.map": "/baoha-portfolio/static/css/main.beb48a10.css.map",
+    "main.305895ac.js.map": "/baoha-portfolio/static/js/main.305895ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.917406ac.css",
-    "static/js/main.a42ad92d.js"
+    "static/css/main.beb48a10.css",
+    "static/js/main.305895ac.js"
   ]
 }
