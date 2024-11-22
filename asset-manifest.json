@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/baoha-portfolio/static/css/main.beb48a10.css",
-    "main.js": "/baoha-portfolio/static/js/main.305895ac.js",
+    "main.js": "/baoha-portfolio/static/js/main.8cc19b74.js",
     "static/media/react-investment-calculator.png": "/baoha-portfolio/static/media/react-investment-calculator.afdea62029d3ed44cd8c.png",
     "static/media/react-tictactoe.png": "/baoha-portfolio/static/media/react-tictactoe.96b672fb64669a611800.png",
     "static/media/php_bookstore.png": "/baoha-portfolio/static/media/php_bookstore.c7869f6cb2787c4c2ed1.png",
@@ -11,10 +11,10 @@
     "static/media/about.png": "/baoha-portfolio/static/media/about.9f7f58d01d02748e4e1a.png",
     "index.html": "/baoha-portfolio/index.html",
     "main.beb48a10.css.map": "/baoha-portfolio/static/css/main.beb48a10.css.map",
-    "main.305895ac.js.map": "/baoha-portfolio/static/js/main.305895ac.js.map"
+    "main.8cc19b74.js.map": "/baoha-portfolio/static/js/main.8cc19b74.js.map"
   },
   "entrypoints": [
     "static/css/main.beb48a10.css",
-    "static/js/main.305895ac.js"
+    "static/js/main.8cc19b74.js"
   ]
 }
