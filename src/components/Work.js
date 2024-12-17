@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import { FaExternalLinkAlt, FaCode, FaPlay } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaYoutube } from "react-icons/fa";
 import Img1 from "../assets/Clarins_Cosmetics.png";
 import Img2 from "../assets/php_bookstore.png";
 import Img3 from "../assets/react-tictactoe.png";
@@ -25,6 +25,7 @@ const Work = () => {
                             </h2>
                         </div>
                         {/* image */}
+                        {/* project 1 */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
                             {/* overlay */}
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -42,7 +43,7 @@ const Work = () => {
                                     rel="noreferrer"
                                     className="text-gradient flex items-center gap-2 hover:text-accent"
                                 >
-                                    Demo <FaPlay />
+                                    Demo <FaYoutube />
                                 </a>
                                 <a
                                     href="https://github.com/baohm88/team2fly-eproject"
@@ -50,7 +51,7 @@ const Work = () => {
                                     rel="noreferrer"
                                     className="text-gradient flex items-center gap-2 hover:text-accent"
                                 >
-                                    Code <FaCode />
+                                    Code <FaGithub />
                                 </a>
                             </div>
 
@@ -61,6 +62,8 @@ const Work = () => {
                                 </span>
                             </div>
                         </div>
+
+                        {/* project 2 */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
                             {/* overlay */}
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -86,7 +89,7 @@ const Work = () => {
                                     rel="noreferrer"
                                     className="text-gradient flex items-center gap-2 hover:text-accent"
                                 >
-                                    Code <FaCode />
+                                    Code <FaGithub />
                                 </a>
                             </div>
 
@@ -105,7 +108,7 @@ const Work = () => {
                         viewport={{ once: false, amount: 0.3 }}
                         className="flex-1 flex flex-col gap-y-10"
                     >
-                        {/* project 2 */}
+                        {/* project 3 */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
                             {/* overlay */}
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -125,21 +128,14 @@ const Work = () => {
                                 >
                                     Live <FaExternalLinkAlt />
                                 </a>
-                                <a
-                                    href="https://youtu.be/xhuE0dgFX30"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="text-gradient flex items-center gap-2 hover:text-accent"
-                                >
-                                    Demo <FaPlay />
-                                </a>
+                                
                                 <a
                                     href="https://github.com/baohm88/php_bookstore"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="text-gradient flex items-center gap-2 hover:text-accent"
                                 >
-                                    Code <FaCode />
+                                    Code <FaGithub />
                                 </a>
                             </div>
 
@@ -151,7 +147,7 @@ const Work = () => {
                             </div>
                         </div>
 
-                        {/* project 3 */}
+                        {/* project 4 */}
                         <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
                             {/* overlay */}
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -164,28 +160,21 @@ const Work = () => {
                             {/* links */}
                             <div className="absolute -bottom-full left-4 group-hover:bottom-24 transition-all duration-500 z-50 flex gap-8">
                                 <a
-                                    href="https://live-link.com"
+                                    href="https://baohm88.github.io/react-tictactoe/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="text-gradient flex items-center gap-2 hover:text-accent"
                                 >
                                     Live <FaExternalLinkAlt />
                                 </a>
+                                
                                 <a
-                                    href="https://demo-link.com"
+                                    href="https://github.com/baohm88/react-tictactoe.git"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="text-gradient flex items-center gap-2 hover:text-accent"
                                 >
-                                    Demo <FaPlay />
-                                </a>
-                                <a
-                                    href="https://github.com/code-link"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="text-gradient flex items-center gap-2 hover:text-accent"
-                                >
-                                    Code <FaCode />
+                                    Code <FaGithub />
                                 </a>
                             </div>
 
